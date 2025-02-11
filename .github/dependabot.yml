@@ -1,0 +1,28 @@
+# .github/dependabot.yml
+version: 2
+updates:
+  # Monitora dependências do GitHub Actions (se houver workflows)
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "⬆️"
+      include: "scope"
+
+  # Monitora dependências externas (versões em CDNs)
+  - package-ecosystem: "npm" # Mesmo sem package.json, para monitorar CDNs
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    ignore:
+      - dependency-name: "*"
+        update-types: [ "version-update:semver-major" ]
+    allow:
+      - dependency-type: "direct"
+
+  # Monitora atualizações de segurança do próprio GitHub
+  - package-ecosystem: "github"
+    directory: "/"
+    schedule:
+      interval: "daily"
