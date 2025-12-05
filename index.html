@@ -8,106 +8,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <!-- Logo do favicon aqui - Cobrar novo favicon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Poppins', sans-serif;
-        }
-
-        body {
-            background: linear-gradient(135deg, #6b46c1, #d53f8c);
-            min-height: 100vh;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .logo {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            background: white;
-            margin: 20px 0;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .logo img {
-            width: 80%;
-            height: 80%;
-            object-fit: contain;
-        }
-
-        h1 {
-            color: white;
-            margin-bottom: 10px;
-            text-align: center;
-            font-size: 2.2em;
-        }
-
-        .container {
-            width: 100%;
-            max-width: 600px;
-        }
-
-        .link-card {
-            background: rgba(255,255,255,0.9);
-            backdrop-filter: blur(5px);
-            border-radius: 15px;
-            padding: 15px;
-            margin: 10px 0;
-            display: flex;
-            align-items: center;
-            transition: transform 0.3s ease;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-            cursor: pointer;
-        }
-
-        .link-card:hover {
-            transform: translateY(-3px);
-        }
-
-        .icon {
-            width: 40px;
-            height: 40px;
-            background: #6b46c1;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-right: 15px;
-            color: white;
-        }
-
-        .link-text {
-            flex: 1;
-        }
-
-        .link-text h3 {
-            color: #2d3748;
-            font-size: 1.1em;
-        }
-
-        .link-text p {
-            color: #718096;
-            font-size: 0.9em;
-        }
-
-        footer {
-            color: white;
-            text-align: center;
-            margin-top: 30px;
-            padding: 20px;
-            font-size: 0.9em;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="index-page">
     <div class="logo">
         <!-- Logo da Nanda 3D Arte - Cobrar logo novo-->
         <img src="https://s3.nanda3darte.com.br/45e63349eb1322779dbad704cef4843d1e7e44861fc797a1f6ae9a0b82bf059b.png" alt="Nanda 3D Arte">
@@ -116,6 +19,17 @@
     <h1>Nanda 3D Arte</h1>
 
     <div class="container">
+        <!-- Link para Portfólio -->
+        <a href="portifolio.html" class="link-card">
+            <div class="icon">
+                <i class="fas fa-images"></i>
+            </div>
+            <div class="link-text">
+                <h3>Portfólio</h3>
+                <p>Conheça nossos projetos de impressão 3D</p>
+            </div>
+        </a>
+
         <!-- Link para Instagram -->
         <a href="https://www.instagram.com/nanda3d.arte/" class="link-card">
             <div class="icon">

@@ -3,178 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nanda 3D Arte - Impressão 3D Criativa</title>
+    <title>Portfólio - Nanda 3D Arte - Impressão 3D Criativa</title>
     <link rel="icon" type="image/x-icon" href="https://s3.nanda3darte.com.br/81b975fe23df060bb698a1217d686c7a024ee119fa127ed8f097776400aa6225.ico">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <!-- Logo do favicon aqui - Cobrar novo favicon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Poppins', sans-serif;
-        }
-
-        body {
-            background: linear-gradient(135deg, #6b46c1, #d53f8c);
-            min-height: 100vh;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .logo {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            background: white;
-            margin: 20px 0;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .logo img {
-            width: 80%;
-            height: 80%;
-            object-fit: contain;
-        }
-
-        h1 {
-            color: white;
-            margin-bottom: 10px;
-            text-align: center;
-            font-size: 2.2em;
-        }
-
-        .container {
-            width: 100%;
-            max-width: 600px;
-        }
-
-        .link-card {
-            background: rgba(255,255,255,0.9);
-            backdrop-filter: blur(5px);
-            border-radius: 15px;
-            padding: 15px;
-            margin: 10px 0;
-            display: flex;
-            align-items: center;
-            transition: transform 0.3s ease;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-            cursor: pointer;
-        }
-
-        .link-card:hover {
-            transform: translateY(-3px);
-        }
-
-        .icon {
-            width: 40px;
-            height: 40px;
-            background: #6b46c1;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-right: 15px;
-            color: white;
-        }
-
-        .link-text {
-            flex: 1;
-        }
-
-        .link-text h3 {
-            color: #2d3748;
-            font-size: 1.1em;
-        }
-
-        .link-text p {
-            color: #718096;
-            font-size: 0.9em;
-        }
-
-        footer {
-            color: white;
-            text-align: center;
-            margin-top: 30px;
-            padding: 20px;
-            font-size: 0.9em;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="logo">
-        <!-- Logo da Nanda 3D Arte - Cobrar logo novo-->
-        <img src="https://s3.nanda3darte.com.br/45e63349eb1322779dbad704cef4843d1e7e44861fc797a1f6ae9a0b82bf059b.png" alt="Nanda 3D Arte">
+    <div class="header">
+        <div class="logo">
+            <img src="https://s3.nanda3darte.com.br/45e63349eb1322779dbad704cef4843d1e7e44861fc797a1f6ae9a0b82bf059b.png" alt="Nanda 3D Arte">
+        </div>
+        <h1>Nanda 3D Arte</h1>
+        <p class="subtitle">Portfólio de Impressão 3D - Projetos Criativos e Personalizados</p>
     </div>
-    
-    <h1>Nanda 3D Arte</h1>
 
-    <div class="container">
-        <!-- Link para Instagram -->
-        <a href="https://www.instagram.com/nanda3d.arte/" class="link-card">
-            <div class="icon">
-                <i class="fab fa-instagram"></i>
-            </div>
-            <div class="link-text">
-                <h3>Instagram</h3>
-                <p>Acompanhe nossos últimos projetos e promoções</p>
-            </div>
-        </a>
+    <div class="portfolio-container">
+        <div id="loadingState" class="loading">
+            <i class="fas fa-spinner"></i>
+            <p>Carregando portfólio...</p>
+        </div>
+        <div class="portfolio-grid" id="portfolioGrid">
+            <!-- Os itens do portfólio serão inseridos aqui via JavaScript -->
+        </div>
 
-        <!-- Link para WhatsApp -->
-        <a href="https://wa.me//5511933219531?text=Tenho%20interesse%20em%20solicitar%20um%20orçamento." class="link-card">
-            <div class="icon">
-                <i class="fab fa-whatsapp"></i>
+        <div class="contact-section">
+            <h2>Entre em Contato</h2>
+            <p style="color: #718096; margin-bottom: 20px;">Quer um projeto personalizado? Entre em contato conosco!</p>
+            <div class="contact-links">
+                <a href="https://www.instagram.com/nanda3d.arte/" class="contact-link" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+                <a href="https://wa.me//5511933219531?text=Tenho%20interesse%20em%20solicitar%20um%20orçamento." class="contact-link" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                </a>
+                <a href="https://shopee.com.br/nanda3d.arte" class="contact-link" target="_blank">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span>Shopee</span>
+                </a>
+                <a href="mailto:contato@nanda3darte.com.br" class="contact-link">
+                    <i class="fas fa-envelope"></i>
+                    <span>E-mail</span>
+                </a>
             </div>
-            <div class="link-text">
-                <h3>WhatsApp</h3>
-                <p>Quer um projeto personalizado? Fale conosco pelo WhatsApp!</p>
-            </div>
-        </a>
+        </div>
+    </div>
 
-        <!-- Link para Shopee -->
-        <a href="https://shopee.com.br/nanda3d.arte" class="link-card">
-            <div class="icon">
-                <i class="fas fa-shopping-bag"></i>
+    <!-- Modal para visualização ampliada -->
+    <div id="imageModal" class="modal">
+        <span class="modal-close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <img id="modalImage" class="modal-image" src="" alt="">
+            <div class="modal-info">
+                <h3 id="modalTitle"></h3>
+                <p id="modalDescription"></p>
             </div>
-            <div class="link-text">
-                <h3>Shopee - Loja Online</h3>
-                <p>Compre nossos produtos pela Shopee</p>
-            </div>
-        </a>
-
-        <!-- Link para Email -->
-        <a href="mailto:contato@nanda3darte.com.br" class="link-card">
-            <div class="icon">
-                <i class="fas fa-envelope"></i>
-            </div>
-            <div class="link-text">
-                <h3>E-mail Profissional</h3>
-                <p>contato@nanda3darte.com.br</p>
-            </div>
-        </a>
-
-        <!-- Link para Avaliação -->
-        <a href="https://www.google.com/search?sca_esv=22a2e29bb18def89&sxsrf=AE3TifMldI0pmR-ZkxnijXclYQ9f43EvEg:1760885731331&q=nanda+3d+arte+cotia&spell=1&sa=X&ved=2ahUKEwjI-YXEwrCQAxUPB7kGHalvAGMQBSgAegQIHxAB#lrd=0x94cf07b3eb43ec69:0x600b6e53e532f599,3,,,," class="link-card">
-            <div class="icon">
-                <i class="fas fa-map-location-dot"></i>
-            </div>
-            <div class="link-text">
-                <h3>Avaliação</h3>
-                <p>Avalie o meu trabalho no Google</p>
-            </div>
-        </a>
-
+        </div>
     </div>
 
     <footer>
         © 2025 Nanda 3D Arte - Impressão 3D com Arte e Precisão
     </footer>
+
+    <script>
+        // Variável global para armazenar os itens do portfólio
+        let portfolioItems = [];
+
+        // Função para carregar os dados do arquivo JSON
+        async function loadPortfolio() {
+            const loadingState = document.getElementById('loadingState');
+            const grid = document.getElementById('portfolioGrid');
+            
+            try {
+                // Carrega o arquivo portfolio.json
+                const response = await fetch('portfolio.json');
+                
+                if (!response.ok) {
+                    throw new Error(`Erro ao carregar portfólio: ${response.status}`);
+                }
+                
+                portfolioItems = await response.json();
+                
+                // Esconde o indicador de carregamento
+                loadingState.style.display = 'none';
+                
+                // Renderiza o portfólio
+                renderPortfolio();
+            } catch (error) {
+                console.error('Erro ao carregar portfólio:', error);
+                loadingState.style.display = 'none';
+                
+                // Exibe mensagem de erro
+                const errorDiv = document.createElement('div');
+                errorDiv.className = 'error-message';
+                errorDiv.innerHTML = `
+                    <i class="fas fa-exclamation-triangle" style="font-size: 2em; margin-bottom: 15px;"></i>
+                    <h3>Erro ao carregar portfólio</h3>
+                    <p>Não foi possível carregar os projetos. Verifique se o arquivo portfolio.json existe e está acessível.</p>
+                    <p style="font-size: 0.9em; margin-top: 10px; color: #718096;">${error.message}</p>
+                `;
+                grid.parentNode.insertBefore(errorDiv, grid);
+            }
+        }
+
+        // Função para renderizar os itens do portfólio
+        function renderPortfolio() {
+            const grid = document.getElementById('portfolioGrid');
+            grid.innerHTML = '';
+
+            if (portfolioItems.length === 0) {
+                grid.innerHTML = '<div class="error-message"><p>Nenhum projeto encontrado no portfólio.</p></div>';
+                return;
+            }
+
+            portfolioItems.forEach((item, index) => {
+                const portfolioItem = document.createElement('div');
+                portfolioItem.className = 'portfolio-item';
+                portfolioItem.onclick = () => openModal(item);
+
+                portfolioItem.innerHTML = `
+                    <img src="${item.image}" alt="${item.title}" class="portfolio-image" loading="lazy">
+                    <div class="portfolio-content">
+                        <h3>${item.title}</h3>
+                        <p>${item.description}</p>
+                        <div class="portfolio-tags">
+                            ${item.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+                        </div>
+                    </div>
+                `;
+
+                grid.appendChild(portfolioItem);
+            });
+        }
+
+        // Função para abrir o modal
+        function openModal(item) {
+            const modal = document.getElementById('imageModal');
+            const modalImage = document.getElementById('modalImage');
+            const modalTitle = document.getElementById('modalTitle');
+            const modalDescription = document.getElementById('modalDescription');
+
+            modalImage.src = item.image;
+            modalImage.alt = item.title;
+            modalTitle.textContent = item.title;
+            modalDescription.textContent = item.description;
+
+            modal.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        }
+
+        // Função para fechar o modal
+        function closeModal() {
+            const modal = document.getElementById('imageModal');
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        // Fechar modal ao clicar fora da imagem
+        window.onclick = function(event) {
+            const modal = document.getElementById('imageModal');
+            if (event.target === modal) {
+                closeModal();
+            }
+        }
+
+        // Fechar modal com tecla ESC
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeModal();
+            }
+        });
+
+        // Carregar portfólio ao carregar a página
+        document.addEventListener('DOMContentLoaded', loadPortfolio);
+    </script>
 </body>
 </html>
