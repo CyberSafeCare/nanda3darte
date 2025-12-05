@@ -1,0 +1,39 @@
+[
+    {
+        "image": "https://s3.nanda3darte.com.br/portifolio/projeto1.png",
+        "title": "Estátua decorativa Budha",
+        "description": "Impressa em resina, a peça demonstra alta precisão nos contornos. Evidencia o potencial da qualidade dos detalhes de impressões em resina para projetos de alta definição.",
+        "tags": ["Chibi", "Resina", "Decoração"]
+    },
+    {
+        "image": "https://s3.nanda3darte.com.br/portifolio/projeto2.png",
+        "title": "Incensário Espartano",
+        "description": "Uma peça decorativa, porém funcional, de um guerreiro espartano. Impressa em FDM (deposição de plástico derretido), o modelo destaca volume e design marcante, mesmo em estruturas maiores.",
+        "tags": ["Funcional", "PLA", "Decoração"]
+    },
+    {
+        "image": "https://s3.nanda3darte.com.br/portifolio/projeto3.png",
+        "title": "Incensário Cascata",
+        "description": "Uma escultura de design contemporâneo. Produzida em FDM, evidencia precisão  e demonstra a versatilidade da tecnologia para criar formas abstratas e artísticas com excelente acabamento.",
+        "tags": ["Arte", "PLA", "Escultura"]
+    },
+    {
+        "image": "https://s3.nanda3darte.com.br/portifolio/projeto4.png",
+        "title": "Busto de Safo",
+        "description": "Uma peça clássoca. Impressa em FDM, mostra ótima definição nos detalhes faciais e nas linhas decorativas, combinando aspecto artesanal e tecnologia de fabricação digital para criar uma escultura marcante e única.",
+        "tags": ["Arte", "PLA", "Escultura"]
+    },
+    {
+        "image": "https://s3.nanda3darte.com.br/portifolio/projeto5.png",
+        "title": "Projeto Exemplo 5",
+        "description": "Quinto projeto exemplificando criatividade e inovação em impressão 3D. Solução personalizada para necessidade específica do cliente.",
+        "tags": ["Industrial", "ABS", "Resistente"]
+    },
+    {
+        "image": "https://s3.nanda3darte.com.br/portifolio/projeto6.png",
+        "title": "Maquete estrutural de edifício",
+        "description": "Diorama estrutural de um edifício, parte de um projeto didático. Impresso em FDM, demonstra versatilidade das possíveis aplicações da tecnologia para além da decoração.",
+        "tags": ["Educacional", "PETG", "Didático"]
+    }
+]
+
