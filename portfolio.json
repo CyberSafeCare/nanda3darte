@@ -1,39 +1,39 @@
 [
     {
         "image": "https://s3.nanda3darte.com.br/portifolio/projeto1.png",
-        "title": "Estátua decorativa Budha",
-        "description": "Impressa em resina, a peça demonstra alta precisão nos contornos. Evidencia o potencial da qualidade dos detalhes de impressões em resina para projetos de alta definição.",
+        "title": "Buda – Estátua Decorativa em Resina",
+        "description": "Estátua de Buda em estilo Chibi, impressa em resina de alta definição e finalizada com pintura prata. Ideal para decoração zen e colecionadores de peças artísticas impressas em 3D.",
         "tags": ["Chibi", "Resina", "Decoração"]
     },
     {
         "image": "https://s3.nanda3darte.com.br/portifolio/projeto2.png",
-        "title": "Incensário Espartano",
-        "description": "Uma peça decorativa, porém funcional, de um guerreiro espartano. Impressa em FDM (deposição de plástico derretido), o modelo destaca volume e design marcante, mesmo em estruturas maiores.",
+        "title": "Incensário Guerreiro Romano em PLA",
+        "description": "Incensário funcional representando um guerreiro romano ajoelhado, impresso em PLA com ótimo nível de detalhe. Uma peça decorativa que combina arte clássica e impressão 3D moderna.",
         "tags": ["Funcional", "PLA", "Decoração"]
     },
     {
         "image": "https://s3.nanda3darte.com.br/portifolio/projeto3.png",
-        "title": "Incensário Cascata",
-        "description": "Uma escultura de design contemporâneo. Produzida em FDM, evidencia precisão  e demonstra a versatilidade da tecnologia para criar formas abstratas e artísticas com excelente acabamento.",
+        "title": "Incensário Cascata – Fonte do Leão em PLA",
+        "description": "Incensário cascata em formato de fonte com uma imponente cabeça de leão, impresso em PLA e pintado em dourado. Perfeito para decoração sofisticada e efeitos visuais com fumaça.",
         "tags": ["Arte", "PLA", "Escultura"]
     },
     {
         "image": "https://s3.nanda3darte.com.br/portifolio/projeto4.png",
-        "title": "Busto de Safo",
-        "description": "Uma peça clássoca. Impressa em FDM, mostra ótima definição nos detalhes faciais e nas linhas decorativas, combinando aspecto artesanal e tecnologia de fabricação digital para criar uma escultura marcante e única.",
+        "title": "Busto de Safo – Réplica Impressa em PLA",
+        "description": "Réplica do busto clássico de Safo, impressa em PLA com acabamento limpo. Uma peça decorativa elegante para amantes de arte, história e impressão 3D.",
         "tags": ["Arte", "PLA", "Escultura"]
     },
     {
         "image": "https://s3.nanda3darte.com.br/portifolio/projeto5.png",
-        "title": "Projeto Exemplo 5",
-        "description": "Quinto projeto exemplificando criatividade e inovação em impressão 3D. Solução personalizada para necessidade específica do cliente.",
-        "tags": ["Industrial", "ABS", "Resistente"]
+        "title": "Peça de Reposição em PETG – Engenharia Reversa",
+        "description": "Peça de reposição para máquina de envase, impressa em PETG branco, a partir de engenharia reversa da peça original desgastada. Solução personalizada para equipamentos cujo fabricante não produz mais componentes.",
+        "tags": ["Industrial", "PETG", "Resistente"]
     },
     {
         "image": "https://s3.nanda3darte.com.br/portifolio/projeto6.png",
-        "title": "Maquete estrutural de edifício",
-        "description": "Diorama estrutural de um edifício, parte de um projeto didático. Impresso em FDM, demonstra versatilidade das possíveis aplicações da tecnologia para além da decoração.",
-        "tags": ["Educacional", "PETG", "Didático"]
+        "title": "Maquete Estrutural em ABS – Uso Educacional",
+        "description": "Maquete de parte estrutural de um edifício, impressa em ABS para fins educacionais. Modelo detalhado que destaca a sustentação e a engenharia do projeto, ideal para aulas e demonstrações técnicas.",
+        "tags": ["Educacional", "ABS", "Engenharia"]
     }
 ]
 
